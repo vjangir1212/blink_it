@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0%;
+          margin: auto;
+          box-sizing: border-box;
+        }
+        .main{
+            height: 300px;
+            max-width: 1170px;
+            background-color: aqua;
+            font-family: sans-serif;
+            font-size: 2rem;
+        }
+        .main1{
+            height: 200px;
+            max-width: 1170px;
+            background-color: aqua;
+            text-align: justify;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .main2{
+            height: 100px;
+            max-width:1170px ;
+            border: black solid 1px;
+            margin: 10px;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 25px;
+            background-color: aquamarine;
+            margin:10px auto;
+        }
+
+      
+        .main3{
+            max-width: 1280px;
+            display: flex;
+            height: auto;
+        }
+        .card{
+            width: 23%;
+            margin: 1%;
+            overflow: hidden;
+            
+        }
+        .card img{
+            width: 100%;
+        }
+        @media screen and (min-width:50px) and (max-width:500px){
+            .main2{background-color: rgba(36, 168, 2, 0.356);}
+            .main3{
+            flex-direction: column;
+        
+            width: 100%;}
+
+            .card{width: 96%;
+                margin: 2% }
+            
+            
+        }
+
+        
+        @media screen and (min-width:501px) and (max-width:950px){
+            .main2{background-color: rgba(133, 10, 248, 0.582);}
+            .main3{flex-wrap: wrap;}
+            .card{width: 48%;
+                margin: 1% }
+            
+            
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="main main1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, corrupti.</p>
+        
+    </div>
+
+    <div class="main2">
+        <p>welcome to Blink it</p>
+    </div>
+
+    <div class="main3">
+        <div class="card">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="img">
+        </div>
+        <div class="card">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="img">
+        </div>
+        <div class="card">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="img">
+        </div>
+        <div class="card">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="img">
+        </div>
+    </div>
+
+    
+
+
+
+    
+</body>
+</html>
